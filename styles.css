@@ -20,31 +20,7 @@ header h1 {
 }
 
 header p {
-  font-size: 1.2rem;
-  margin: 0.5rem 0 0;
-}
-
-nav {
-  background: #444;
-  padding: 0.5rem 0;
-}
-
-nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  margin: 0 1rem;
-}
-
-nav ul li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
+  margin: 0.5rem 0;
 }
 
 .container {
@@ -54,32 +30,19 @@ nav ul li a {
 }
 
 h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 0.5rem;
   margin-bottom: 1rem;
   color: #444;
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-.project {
-  background: #fff;
-  padding: 1rem;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.project h3 {
-  margin-top: 0;
-}
-
-.project a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
+ul li {
+  margin-bottom: 1rem;
 }
 
 footer {
@@ -87,6 +50,4 @@ footer {
   color: #fff;
   text-align: center;
   padding: 1rem 0;
-  margin-top: 2rem;
 }
-
